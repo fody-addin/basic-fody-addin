@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Text.RegularExpressions;
 using NUnit.Framework;
+using AssemblyToProcess;
 
 public static class Verifier
 {
