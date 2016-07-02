@@ -7,9 +7,9 @@ using NUnit.Framework;
 [TestFixture]
 public class WeaverTests
 {
-    Assembly assembly;
-    string newAssemblyPath;
-    string assemblyPath;
+    private Assembly assembly;
+    private string newAssemblyPath;
+    private string assemblyPath;
 
     [OneTimeSetUp]
     public void Setup()
