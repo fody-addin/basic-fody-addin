@@ -4,7 +4,7 @@
 Task("test")
     .Does(() => {
         XBuild("BasicFodyAddin.sln");
-        NUnit3("./Tests/bin/Debug/Tests.dll");
+        NUnit3("./BasicFodyAddin.Tests/bin/Debug/Tests.dll");
     });
 
 
